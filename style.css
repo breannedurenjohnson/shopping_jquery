@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0px;
+}
+/* .container-fluid {
+  width: 100%;
+} */
+.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-light {
+  background-color: white !important;
+  box-shadow: #f6f6f6 2px 2px 2px 2px;
+  /* border-bottom: 1px solid #dddddd; */
+  padding: 0px 20px 0px 10px;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 60px;
+}
+
+.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-light ul li:hover {
+  border-bottom: 2px solid black;
+  margin-bottom: -2px;
+}
+
+.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-light a {
+  color: black;
+  font-size: 10pt;
+  padding: 15px 10px;
+  vertical-align: center;
+  letter-spacing: 0.8pt;
+  font-family: "Roboto", sans-serif;
+  height: fit-content;
+}
+
+#shop img {
+  width: 20px;
+  margin-top: -5px;
+}
+
+h1 {
+  font-size: 23pt;
+  margin: 25px;
+  font-weight: bold;
+  letter-spacing: 1.5pt;
+}
+.navbar-brand img {
+  width: 150px;
+  padding: 0px;
+}
+.collapse.navbar-collapse {
+  margin: 0px;
+}
+#sale {
+  color: #dc3637;
+}
+#subhead {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#subhead ul {
+  width: 100%;
+  background-color: #eeeeec;
+  padding: 75px 0px 15px 0px;
+  vertical-align: bottom;
+  font-size: 9pt;
+  letter-spacing: 0.7pt;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+}
+#subhead.row {
+  width: 100%;
+  margin: 0px 0px 5px 0px;
+}
+#salelist {
+  color: #dc3637;
+  font-size: 8pt;
+  font-weight: bold;
+  letter-spacing: 0.5pt;
+  text-align: center;
+  padding: 5px 10px;
+  margin: auto;
+}
+#salelist li {
+  padding: 2px 75px;
+  border-right: 1px solid #dddddd;
+  margin: 0px;
+}
+#drop_menus {
+  padding: 0px 20px;
+}
+.footer img {
+  width: 25px;
+  display: inline-block;
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.clothes {
+  margin: auto;
+}
+
+.clothes img {
+  width: 400px;
+  display: inline-block;
+}
+
+.container-fluid h1 {
+  text-align: center;
+}
+.card {
+  width: auto;
+  margin: 20px 10px;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  border-radius: 0%;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card img {
+  margin: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 10pt;
+  margin-top: 15px;
+  letter-spacing: 0.5pt;
+}
+
+.card-body p {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card a {
+  padding: 0px;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+  background-color: white;
+  color: black;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  letter-spacing: 1pt;
+  font-size: 8pt;
+  font-weight: bold;
+  border-radius: 0%;
+  margin-right: 20px;
+  padding: 10px 40px;
+}
+
+.btn.btn-secondary.dropdown-toggle:hover {
+  background-color: #eeeeec;
+}
+
+.btn.btn-secondary.dropdown-toggle::after {
+  font-size: 12pt;
+  vertical-align: center;
+  margin: 4px 0px -2px 10px;
+}
